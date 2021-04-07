@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_HOST','devops.cqmdt0h7v6tb.eu-west-1.rds.amazonaws.com');
+define('DB_USER','admin');
+define('DB_PASS','admin123');
 define('DB_NAME','cpms');
 // Establish database connection.
 try
