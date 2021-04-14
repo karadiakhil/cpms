@@ -5,7 +5,6 @@ RUN yum -y install wget
 RUN yum -y install epel-release
 RUN wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum -y install epel-release-latest-7.noarch.rpm
-RUN yum -y update
 RUN yum -y install httpd 
 RUN yum -y install php
 # Install EPEL Repo
