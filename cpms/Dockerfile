@@ -1,6 +1,7 @@
 FROM centos:7
 
 # Install Apache
+RUN yum -y install wget
 RUN yum -y install epel-release
 RUN wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum -y install epel-release-latest-7.noarch.rpm
